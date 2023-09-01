@@ -25,7 +25,6 @@ class Client:
 
         thread1.start()
         thread2.start()
-
     def loop(self): 
 
         self.win=tkinter.Tk()
