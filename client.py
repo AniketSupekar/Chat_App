@@ -66,6 +66,7 @@ class Client:
         self.sock.close()
         exit(0)
 
+    
     def receive(self):
         while self.running:
             try:
